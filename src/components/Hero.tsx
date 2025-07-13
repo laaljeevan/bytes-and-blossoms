@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -42,6 +42,21 @@ export function Hero() {
               <Link to="/portfolio">
                 View My Work
               </Link>
+            </Button>
+            <Button 
+              asChild 
+              variant="secondary" 
+              size="lg"
+              className="group"
+            >
+              <a
+                href="/resume.pdf"
+                download
+                className="flex items-center gap-2"
+              >
+                <Download className="h-4 w-4 group-hover:scale-110 transition-transform" />
+                Download Resume
+              </a>
             </Button>
           </div>
 

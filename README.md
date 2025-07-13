@@ -61,6 +61,10 @@ A modern, responsive blog and portfolio website built with React, TypeScript, an
    - Update your name, tagline, and description
    - Modify social media links
 
+4. **Add your resume**:
+   - Replace `public/resume.pdf` with your actual resume PDF file
+   - The download button is already set up in the hero section
+
 ### Adding Blog Posts
 
 1. **Edit** `src/data/blogPosts.ts`
